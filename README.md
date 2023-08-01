@@ -11,7 +11,7 @@ If you run the project you shouldn't see the form... if you change the name of t
 
 Then you should see the form in the browser.
 
-So `blaze` from `packages` - folder - no form
+So `blaze` from `packages` - folder - no form  
 `blaze` from current release - form is being rendered.
 
 Hopefully this is a good simple replication of the issue.
