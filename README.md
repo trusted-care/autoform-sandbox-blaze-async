@@ -3,6 +3,8 @@ Check autoform not showing with async blaze #if #unless #each
 
 This is a small sample meteor project which allows us to review & fix an issue with autoform not displaying forms with a WIP PR (https://github.com/meteor/blaze/pull/424) to support async data in Blaze `#if`, `#unless` and `#each` template operators.
 
+Loom Video: https://www.loom.com/share/a202e704da8c4600a386c5ece7e5a287?sid=cbfcff77-30fe-4832-9185-df37baf3af5e
+
 ## How to check quickly
 
 For being able to quickly test the compatibility with the changes, i've _copied_ the files of the changed blaze package to the `packages` directory.
