@@ -5,7 +5,7 @@ This is a small sample meteor project which allows us to review & fix an issue w
 
 ## How to check quickly
 
-For being able to quickly test the compatibility with the changes, i've _copied_ the files of the changed blaze packages to the `packages` directory.
+For being able to quickly test the compatibility with the changes, i've _copied_ the files of the changed blaze package to the `packages` directory.
 
 If you run the project you shouldn't see the form... if you change the name of the package in the `packages/blaze/package.js` file from `blaze` to eg. `blaze-no` then meteor will load the default `2.7.1` from the `2.1.12` release.
 
