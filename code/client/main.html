@@ -1,0 +1,16 @@
+<head>
+  <title>code</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> insertBookForm}}
+
+</body>
+
+<template name="insertBookForm">
+  {{#if loadComplete}}
+    {{> quickForm collection="Books" id="insertBookForm" type="insert"}}
+  {{/if}}
+</template>
